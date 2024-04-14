@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    height: 1.5625rem;
+    width: 6.875rem;
+    border-radius: .75rem;
+    font-weight: 600;
+}
+
+img {
+    max-width: 100%;
+}

@@ -1,0 +1,12 @@
+
+.header_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.anchor_list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 6.25rem;
+}
