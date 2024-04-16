@@ -1,12 +1,49 @@
+.header_container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
 
 .header_list {
-    display: flex;
-    justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9375rem;
+  text-align: center;
 }
 
+
+
+  
+
 .anchor_list {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 6.25rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 6.25rem;
 }
+
+@media (min-width: 950px) {
+  .header_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+  @media (max-width: 425px) {
+    .anchor_list {
+        align-items: center;
+        gap: 2.25rem;
+    }
+
+    .header_container img {
+        padding-bottom: 2rem;
+      }
+    
+      .header_container button {
+        margin-top: 2rem;
+      }
+  }
+

@@ -1,9 +1,11 @@
 import { ProjectList } from "./ProjectsList";
+import styles from "./style.module.css";
 
 export const ProjectsSection = () => {
   return (
     <section className="projects-section">
-      <div className="container">
+      <div className={styles.projects_container}>
+      <h2 className="title md">Projetos</h2>
         <ProjectList />
       </div>
     </section>
