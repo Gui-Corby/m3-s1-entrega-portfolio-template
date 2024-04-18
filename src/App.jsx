@@ -9,7 +9,6 @@ import { technologies } from "./data/technologies.js";
 import { username } from "./data/user.js";
 import "../src/styles/globalStyles.css";
 
-
 function App() {
   return (
     <>
@@ -24,8 +23,7 @@ function App() {
 
         <TechSection technologies={technologies} />
 
-        <ProjectsSection projects={projects}>
-        </ProjectsSection>
+        <ProjectsSection projects={projects}></ProjectsSection>
       </main>
 
       <Footer />

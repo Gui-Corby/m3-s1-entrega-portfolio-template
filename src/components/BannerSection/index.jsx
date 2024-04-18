@@ -23,5 +23,4 @@ export const BannerSection = ({ children }) => {
 };
 
 {
-  /* <p className="paragraph blue">{username}</p> */
 }

@@ -1,35 +1,29 @@
-/* .container {
-    display: flex;
-    justify-content: center;
-} */
-
-.aboutMe_p{
-    max-width: 81%;
-
+.aboutMe_p {
+  max-width: 81%;
 }
 
 .aboutMe_container {
-    width: 100%;
-    max-width: 1180px;
-    margin: 0 auto;
-    padding: 1.5rem;
-    padding-top: 3.75rem;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  padding-top: 3.75rem;
 }
 
 @media (min-width: 950px) {
-    .aboutMe_container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+  .aboutMe_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-    .aboutMe_p {
-        padding-left: 20rem;
-    }
+  .aboutMe_p {
+    padding-left: 20rem;
+  }
 }
 
 @media (max-width: 424px) {
-    .aboutMe_p {
-        padding-top: 1rem;
-    }
+  .aboutMe_p {
+    padding-top: 1rem;
+  }
 }
