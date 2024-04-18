@@ -1,15 +1,16 @@
 import banner from "/src/assets/banner-img.png";
-import { username } from "../../data/user.js";
 import styles from "./style.module.css";
 
-export const BannerSection = () => {
+export const BannerSection = ({ children }) => {
   return (
     <section className="banner-section">
       <div className={styles.banner_container}>
         <div className="container_left">
-          <p className="paragraph blue">{username}</p>
+          {children}
           <h1 className="title lg">Bem vindo ao meu portfólio</h1>
-          <p className={styles.paragraph_interest}>Físico e Desenvolvedor Front-End</p>
+          <p className={styles.paragraph_interest}>
+            Físico e Desenvolvedor Front-End
+          </p>
           <button>Saiba mais</button>
         </div>
 
@@ -20,3 +21,7 @@ export const BannerSection = () => {
     </section>
   );
 };
+
+{
+  /* <p className="paragraph blue">{username}</p> */
+}

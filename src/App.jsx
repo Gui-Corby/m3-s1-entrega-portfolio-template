@@ -4,6 +4,11 @@ import { AboutMe } from "./components/AboutMeSection";
 import { TechSection } from "./components/TechSection";
 import { ProjectsSection } from "./components/ProjectsSection";
 import { Footer } from "./components/Footer";
+import { projects } from "./data/projects.js";
+import { technologies } from "./data/technologies.js";
+import { username } from "./data/user.js";
+import "../src/styles/globalStyles.css";
+
 
 function App() {
   return (
@@ -11,14 +16,19 @@ function App() {
       <Header />
 
       <main>
-        <BannerSection />
+        <BannerSection>
+          <p className="paragraph_blue">{username}</p>
+        </BannerSection>
+
         <AboutMe />
-        <TechSection />
-        <ProjectsSection />
+
+        <TechSection technologies={technologies} />
+
+        <ProjectsSection projects={projects}>
+        </ProjectsSection>
       </main>
 
       <Footer />
-      
     </>
   );
 }

@@ -27,3 +27,9 @@
         padding-left: 20rem;
     }
 }
+
+@media (max-width: 424px) {
+    .aboutMe_p {
+        padding-top: 1rem;
+    }
+}

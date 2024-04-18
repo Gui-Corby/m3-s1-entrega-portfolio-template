@@ -1,0 +1,38 @@
+
+
+.projectItem_list{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    border: 1px solid var(--color-white);
+    border-radius: 1.5625rem;
+    height: 11.25rem;
+    width: 100%;
+    margin-top: 1.25rem;
+}
+
+@media (max-width: 320px) {
+    .projectItem_list h3 {
+        max-width: 40%;
+    }
+
+    .projectItem {
+        padding-left: 1.5rem;
+    }
+}
+
+@media (min-width: 950px) {
+    .projectList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 1rem;
+    
+    }
+
+    .projectItem_list {
+        padding-left: 2.5rem;
+    }
+
+    
+}

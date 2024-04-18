@@ -15,6 +15,6 @@
     font-size: clamp(2.625rem, 2.357rem + 0.714vw, 3rem);
 }
 
-.paragraph.blue {
+/* .paragraph_blue {
     color: var(--color-primary);
-}
+} */

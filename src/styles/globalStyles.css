@@ -14,3 +14,7 @@ body {
     color: var(--color-white);
     background: var(--color-black);
 }
+
+.paragraph_blue {
+    color: #6880ff;
+}

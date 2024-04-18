@@ -1,7 +1,7 @@
-import { technologies } from "../../../data/technologies.js";
+
 import styles from "./style.module.css";
 
-export const TechnologiesList = () => {
+export const TechnologiesList = ({ technologies }) => {
   return (
     <div className={styles.technoliges_section_list}>
       {technologies.map((tech) => {
