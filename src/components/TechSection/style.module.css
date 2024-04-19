@@ -1,16 +1,16 @@
 .technologies_container {
-    width: 100%;
-    max-width: 1180px;
-    margin: 0 auto;
-    padding: 1.5rem;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 1.5rem;
 }
 
 @media (min-width: 950px) {
-    .technologies_container {
-        padding-top: 8rem;
-    }
+  .technologies_container {
+    padding-top: 8rem;
+  }
 
-    h2 {
-        padding-bottom: 2rem;
-    }
+  h2 {
+    padding-bottom: 2rem;
+  }
 }

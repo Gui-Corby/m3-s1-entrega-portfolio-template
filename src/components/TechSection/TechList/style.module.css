@@ -1,4 +1,4 @@
-.techItem {
+.technologies_section_list > li {
   padding-left: 2.5rem;
   border: 1px solid var(--color-white);
   border-radius: 1.5625rem;
@@ -12,13 +12,14 @@
 }
 
 @media (min-width: 950px) {
-  .technoliges_section_list {
+  .technologies_section_list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 0rem 1rem;
   }
 
-  .techItem {
-    margin: 0;
-  }
+  .technologies_section_list > li {
+
+  margin-top: 0;
+}
 }

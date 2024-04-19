@@ -8,8 +8,7 @@ import { Footer } from "./components/Footer";
 import { projects } from "./data/projects.js";
 import { technologies } from "./data/technologies.js";
 import { ProjectList } from "./components/ProjectsSection/ProjectsList/index.jsx";
-import { ProjectCard } from "./components/ProjectsSection/ProjectsList/ProjectCard/index.jsx"
-// import "../src/components/TechSection/TechList/style.module.css";
+import { ProjectCard } from "./components/ProjectsSection/ProjectsList/ProjectCard/index.jsx";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       <Header />
 
       <main>
-        
         <BannerSection />
 
         <AboutMe />
@@ -42,7 +40,6 @@ function App() {
             ))}
           </ProjectList>
         </ProjectsSection>
-
       </main>
 
       <Footer />
