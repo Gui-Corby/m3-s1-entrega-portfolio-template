@@ -19,10 +19,11 @@ button {
     border: none;
     background-color: var(--color-primary);
     color: var(--color-white);
-    height: 1.5625rem;
-    width: 6.875rem;
+    height: 2.5625rem;
+    width: 8.125rem;
     border-radius: .75rem;
     font-weight: 600;
+    font-size: 1rem;
 }
 
 button:hover {

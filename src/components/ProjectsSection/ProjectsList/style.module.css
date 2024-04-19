@@ -1,13 +1,3 @@
-.projectItem_list {
-  display: flex;
-  flex-direction: column;
-  padding-left: 1rem;
-  border: 1px solid var(--color-white);
-  border-radius: 1.5625rem;
-  height: 11.25rem;
-  width: 100%;
-  margin-top: 1.25rem;
-}
 
 @media (max-width: 320px) {
   .projectItem_list h3 {
@@ -24,7 +14,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    gap: 1rem;
+    gap: 0rem 1rem;
   }
 
   .projectItem_list {

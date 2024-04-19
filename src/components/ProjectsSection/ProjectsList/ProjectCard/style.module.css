@@ -1,3 +1,17 @@
+.projectItem_list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  border: 1px solid var(--color-white);
+  border-radius: 1.5625rem;
+  height: 11.25rem;
+  width: 100%;
+  margin-top: 1.25rem;
+}
+
+
+
+
 .projectItem_container {
   display: flex;
   flex-direction: column;
